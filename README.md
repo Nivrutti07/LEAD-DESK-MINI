@@ -17,7 +17,7 @@ The application provides:
 
 
 ```
-https://your-public-url.com
+https://lead-desk-mini-client-j22oqad64-nivrutti07s-projects.vercel.app/
 ```
 
 ---
@@ -27,7 +27,7 @@ https://your-public-url.com
 🔗 Admin URL:
 
 ```
-https://your-admin-url.com/admin/login
+https://lead-desk-mini-client-j22oqad64-nivrutti07s-projects.vercel.app/admin/login
 ```
 
 ---
@@ -37,7 +37,7 @@ https://your-admin-url.com/admin/login
 🔗 Source Code:
 
 ```
-https://github.com/your-username/LeadDesk-Mini
+https://github.com/Nivrutti07/LEAD-DESK-MINI
 ```
 
 ---
@@ -58,10 +58,10 @@ Use the following credentials to access the admin panel:
 
 ```
 Email:
-admin@example.com
+admin@gmail.com
 
 Password:
-Admin@123
+admin@123
 ```
 
 > Admin registration is disabled. Admin accounts are created securely from the backend to prevent unauthorized admin creation.
@@ -347,8 +347,8 @@ Request:
 
 ```json
 {
-  "email": "admin@example.com",
-  "password": "Admin@123"
+  "email": "admin@gamil.com",
+  "password": "admin@123"
 }
 ```
 
@@ -378,8 +378,8 @@ Example:
 
 ```json
 {
-  "name": "John Doe",
-  "email": "john@gmail.com",
+  "name": "abc",
+  "email": "abc@gmail.com",
   "budget": "₹10,000 - ₹50,000",
   "message": "Need information about services"
 }
@@ -528,9 +528,9 @@ New → Contacted → Closed
 ```env
 PORT=5000
 
-MONGO_URI=your_mongodb_connection_string
+MONGO_URI=mongodb_connection_string
 
-JWT_SECRET=your_secret_key
+JWT_SECRET=secret_key
 
 NODE_ENV=production
 ```
@@ -539,7 +539,7 @@ NODE_ENV=production
 ## Frontend (.env)
 
 ```env
-VITE_API_URL=your_backend_url
+VITE_API_URL=backend_url
 ```
 
 ---
@@ -549,9 +549,9 @@ VITE_API_URL=your_backend_url
 ## Clone Repository
 
 ```bash
-git clone https://github.com/your-username/LeadDesk-Mini.git
+git clone https://github.com/Nivrutti07/LEAD-DESK-MINI.git
 
-cd LeadDesk-Mini
+cd LEAD-DESK-MINI
 ```
 
 ---
@@ -610,7 +610,7 @@ Vercel
 Deployed using:
 
 ```
-Render / Railway
+Render
 ```
 
 
@@ -665,7 +665,7 @@ Computer Science Engineering Student
 GitHub:
 
 ```
-https://github.com/your-username
+https://github.com/Nivrutti07
 ```
 
 ---
