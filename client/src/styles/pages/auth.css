@@ -1,0 +1,124 @@
+.auth-shell {
+  min-height: calc(100vh - 88px);
+  display: grid;
+  place-items: center;
+  padding: 2.5rem 1rem;
+  position: relative;
+}
+.auth-shell:before {
+  content: "";
+  position: absolute;
+  width: 34rem;
+  height: 34rem;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(230, 57, 70, 0.13), transparent 68%);
+  filter: blur(8px);
+  top: 4%;
+  left: 50%;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+.auth-card {
+  width: min(100%, 460px);
+  padding: 2.1rem;
+  border-radius: 22px;
+  position: relative;
+  z-index: 1;
+  animation: auth-enter 0.35s ease;
+}
+.auth-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: var(--text-color);
+  font-size: 0.9rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
+.auth-brand img {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  border-radius: 50%;
+  padding: 0.32rem;
+  background: #fff;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.14);
+}
+.auth-header {
+  margin-bottom: 1.65rem;
+}
+.auth-kicker {
+  display: block;
+  color: var(--accent-color);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.13em;
+  margin-bottom: 0.55rem;
+}
+.auth-header h1 {
+  margin: 0 0 0.45rem;
+  color: var(--text-color);
+  font-size: clamp(1.8rem, 5vw, 2.25rem);
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+}
+.auth-header p {
+  margin: 0;
+  color: var(--text-muted);
+}
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.05rem;
+}
+.auth-form > .btn {
+  margin-top: 0.35rem;
+}
+.auth-footer {
+  text-align: center;
+  margin-top: 1.5rem;
+  padding-top: 1.35rem;
+  border-top: 1px solid var(--border-color);
+}
+.auth-footer p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+.auth-register-prompt {
+  margin-top: 0.65rem !important;
+}
+.auth-link {
+  color: var(--accent-color);
+  font-weight: 700;
+  text-decoration: none;
+}
+.auth-link:hover {
+  color: var(--accent-strong);
+  text-decoration: underline;
+}
+@keyframes auth-enter {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+:root[data-theme="light"] .auth-card {
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 20px 55px rgba(17, 17, 17, 0.1);
+}
+@media (max-width: 480px) {
+  .auth-shell {
+    padding: 1.25rem 0.85rem;
+  }
+  .auth-card {
+    padding: 1.5rem;
+  }
+  .auth-brand {
+    margin-bottom: 1.5rem;
+  }
+}

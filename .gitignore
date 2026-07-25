@@ -1,0 +1,23 @@
+
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+client/.env
+server/.env
+
+# Build Files
+dist/
+client/dist/
+server/dist/
+
+
+
+# Editor Files
+.vscode/

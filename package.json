@@ -1,0 +1,24 @@
+{
+  "name": "lead-desk-mini",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A modern lead management platform with public lead capture and admin CRM dashboard",
+  "scripts": {
+    "dev": "concurrently \"cd client && npm run dev\" \"cd server && npm start\"",
+    "client:dev": "cd client && npm run dev",
+    "client:build": "cd client && npm run build",
+    "server:dev": "cd server && npm start",
+    "server:build": "cd server && npm run build"
+  },
+  "keywords": [
+    "lead",
+    "crm",
+    "management",
+    "react",
+    "node"
+  ],
+  "workspaces": [
+    "client",
+    "server"
+  ]
+}
